@@ -1,0 +1,7 @@
+---
+applications:
+  - name: dev-kc-spring-test
+    memory: 256M
+    instances: 1
+    routes:
+      - route: dev-kc-spring-test.{domain}
